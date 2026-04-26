@@ -1,0 +1,98 @@
+body{
+    font-family: Poppins;
+    margin:0;
+    padding:0;
+    background:url('../img/flocon1.gif'),url('../img/background.png');
+    background-size:auto,cover;
+  background-repeat: repeat, no-repeat;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+
+}
+
+/* HEADER */
+
+
+/* LOGO MAISONS*/
+.symbol{
+    text-align: center;
+}
+.house img{
+    position: relative;
+    z-index:1000;
+    border-radius:50%;
+    border:3px solid grey;
+    background:#2c2c2c;
+}
+
+
+.house .name{
+    transition:0.4s;
+    text-align: right;
+    position:absolute;
+    padding:0px 30px;
+    top:40px;
+   opacity: 0;
+     color:white;
+ 
+}
+.allList{
+
+}
+
+div.symbol:hover ~ div.name{
+    opacity: 1;
+     padding:10px 0px;
+/*     background:rgba(39, 35, 35, 0.71);*/
+}
+
+/*    FOOTER */
+
+/*       MOBILE     */
+@media screen and (max-width: 768px) { 
+    .house{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 10px 20px;
+        background: rgba(206, 206, 206, 0.37);
+    }
+    .allList{
+        padding:20px;
+        overflow: scroll;
+
+    }
+
+
+    body{
+        background-attachment: fixed;
+    }
+  .house .name{
+      opacity: 1;
+      padding:0;
+      text-align: center;
+      position: initial;
+}
+    
+}
+@media screen and (min-width: 667px) and (max-width: 768px) {  
+   
+}
+/*       TABLETTE   */
+@media screen and (min-width: 768px) and (max-width: 992px) {  
+
+   
+}
+
+/*         COMPUTER STD      */
+@media (min-width: 992px) and (max-width: 1200px) {
+   
+}
+
+/*        COMPUTER LRG       */
+@media (min-width: 1200px) {
+   
+}

@@ -1,0 +1,62 @@
+body{
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(55,53,53,1) 48%, rgba(0,0,0,1) 100%);
+    color:white;
+}
+
+.title h2{
+    margin:10px 0;
+}
+
+.list {
+    border-top:1px solid rgba(0, 0, 0, 0.47);
+}
+.list .deguise > div{
+    transition: 0.3s;
+   background:rgba(39, 35, 35, 0.71);
+    box-shadow: 5px 5px 5px 2px black;
+}
+.list .deguise >div:hover {
+     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.58);
+}
+.deguise>div{
+    margin:0;padding :0;
+}
+.deguise a{
+    color:white;
+    transition:0.3s;
+    margin:0;
+  padding :10px 0;
+}
+.deguise a:hover{
+    font-weight: bold;
+    background:black;
+}
+
+/*       MOBILE     */
+@media screen and (max-width: 768px) { 
+    .banner img {
+        width:100%;
+    }
+    .castle{
+        width:100%;
+    }
+}
+@media screen and (min-width: 667px) and (max-width: 768px) {  
+   
+}
+/*       TABLETTE   */
+@media screen and (min-width: 768px) and (max-width: 992px) {  
+
+   
+}
+
+/*         COMPUTER STD      */
+@media (min-width: 992px) and (max-width: 1200px) {
+   
+}
+
+/*        COMPUTER LRG       */
+@media (min-width: 1200px) {
+   
+}
