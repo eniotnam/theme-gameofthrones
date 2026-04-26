@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "gloss";
+    src: url('../font/Gloss_And_Bloom.ttf');
+}
+
+@font-face {
+    font-family: "Quick_dash";
+    src: url('../font/Quicksand_Dash.otf');
+}
+@font-face {
+    font-family: "Quick_bold"; 
+    src: url('../font/Quicksand-Bold.otf');
+}
+@font-face {
+    font-family: "Quick_bold_italic";
+    src: url('../font/Quicksand-BoldItalic.otf');
+}  
+@font-face {
+    font-family: "Quick_italic";
+    src: url('../font/Quicksand-Italic.otf');
+}
+@font-face {
+    font-family: "Quick_italic";
+    src: url('../font/Quicksand-Italic.otf');
+}
+@font-face {
+    font-family: "league";
+    src: url('../font/LeagueSpartan-Bold.otf');
+}
+@font-face {
+    font-family: "poppins";
+    src: url('../font/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: "poppins_bold";
+    src: url('../font/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: "poppins_semibold";
+    src: url('../font/Poppins-SemiBold.ttf');
+}

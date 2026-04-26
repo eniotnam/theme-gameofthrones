@@ -1,0 +1,39 @@
+body{
+    color:white;
+}
+.guestlist{
+   overflow-x: scroll;
+    
+}
+.guest input:last-child{
+    padding:10px 0;
+}
+
+.row{
+    height:100vh;
+}
+
+/* width */
+.guestlist::-webkit-scrollbar {
+height: 5px;
+}
+
+
+/* Handle */
+.guestlist::-webkit-scrollbar-thumb {
+  background: #636365; 
+  border-radius: 10px;
+}
+
+.addbut{
+    background:rgba(0, 0, 0, 0.72);
+    color:white;
+    border:none;
+    transition:0.3s;
+}
+
+.addbut:hover{
+    cursor: pointer;
+     background:rgba(154, 150, 150, 0.72);
+    color:black;
+}
